@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/John-Fries-J/TimesTable-Website/issues"
   },
-  "homepage": "https://github.com/John-Fries-J/TimesTable-Website#readme"
+  "homepage": "https://github.com/John-Fries-J/TimesTable-Website#readme",
+  "dependencies": {
+    "timestable-website": "file:"
+  }
 }
