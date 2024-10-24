@@ -26,15 +26,16 @@ body {
     margin-bottom: 20px;
   }
   .image-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(10, 30px); 
+    grid-template-rows: repeat(10, 30px);
+    gap: 2px;
+    margin: 20px auto;
     padding: 10px;
     background-color: #eee;
     border: 2px solid #ddd;
     border-radius: 8px;
-  }
+}
   .pixel {
     width: 30px;
     height: 30px;
