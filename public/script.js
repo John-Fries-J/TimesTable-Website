@@ -2,7 +2,7 @@ const timesTables = [
   { question: "5 x 5", answer: 25, color: "#000000" },
   { question: "3 x 4", answer: 12, color: "#ffde34" },
   { question: "7 x 2", answer: 14, color: "#99ff99" },
-  { question: "6 x 6", answer: 26, color: "#ffcc99" },
+  { question: "6 x 6", answer: 36, color: "#ffcc99" },
   { question: "8 x 8", answer: 64, color: "#ff99ff" }
 ];
 
