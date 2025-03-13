@@ -1,0 +1,76 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-template-rows: repeat(10, 30px);
+  gap: 2px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.pixel {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pixel[data-number="0"] {
+  color: transparent;
+}
+
+.pixel:hover {
+  opacity: 0.7;
+}
+
+.times-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.grid-item {
+  width: 80px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.grid-item.correct {
+  background-color: lightgreen;
+}
