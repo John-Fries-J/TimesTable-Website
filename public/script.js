@@ -1,9 +1,9 @@
 const timesTables = [
-  { question: "5 x 5", answer: 25, color: "#000000" },
-  { question: "3 x 4", answer: 12, color: "#ffde34" },
-  { question: "7 x 2", answer: 14, color: "#99ff99" },
-  { question: "6 x 6", answer: 36, color: "#ffcc99" },
-  { question: "8 x 8", answer: 64, color: "#ff99ff" }
+  { question: "7 x 7", answer: 49, color: "#000000" },
+  { question: "9 x 4", answer: 36, color: "#ffde34" },
+  { question: "7 x 8", answer: 56, color: "#99ff99" },
+  { question: "6 x 12", answer: 72, color: "#ffcc99" },
+  { question: "12 x 12", answer: 144, color: "#ff99ff" }
 ];
 
 let currentColor = '';
